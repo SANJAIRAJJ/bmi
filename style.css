@@ -1,0 +1,38 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    color: rgb(18, 18, 18);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://wallpapers.com/images/featured/hd-background-6y0ggs5rjs8ra0lv.jpg);
+  }
+  .main {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 12px;
+    background: rgb(96, 220, 131);
+    border-radius: 15px;
+    box-shadow: rgb(18, 22, 26) 0 px 20px 30px -10px;
+  }
+  input {
+    outline: none;
+    border: none;
+    padding: 5px;
+  }
+  button {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: solid rgb(5, 13, 246);
+    background: rgb(255, 0, 0);
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+  }
+  span {
+    color: red;
+  }
+  button:hover{
+    background-color: blue;
+    border-color: black;
+  }
